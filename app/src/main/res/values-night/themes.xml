@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NewsApi" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryLightColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryLightColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/secondaryDarkColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/secondaryDarkColor</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowBackground">@color/primaryLightColor</item>
+        <item name="attrItemRecyclerCardView">@style/item_recycler_card_view_style.dark_theme</item>
+        <item name="attrItemRecyclerNewsSource">@style/item_recycler_news_source.dark_theme</item>
+        <item name="attrItemRecyclerNewsPublish">@style/item_recycler_news_published.dark_theme
+        </item>
+        <item name="attrItemRecyclerNewsTitle">@style/item_recycler_news_title.dark_theme</item>
+        <item name="attrItemRecyclerNewsDescription">
+            @style/item_recycler_news_description.dark_theme
+        </item>
+    </style>
+</resources>

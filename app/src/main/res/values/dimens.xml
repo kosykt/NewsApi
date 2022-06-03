@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_content_vertical_margin">8dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="card_corner_radius">6dp</dimen>
+    <dimen name="news_source_name_size">24sp</dimen>
+    <dimen name="news_title_size">20sp</dimen>
+    <dimen name="news_description_size">18sp</dimen>
+    <dimen name="image_card_size">150dp</dimen>
+    <dimen name="news_published_size">24sp</dimen>
+    <dimen name="news_published_margin_end">8dp</dimen>
+    <dimen name="dialog_text_size">18sp</dimen>
+    <dimen name="dialog_margin">16dp</dimen>
+</resources>

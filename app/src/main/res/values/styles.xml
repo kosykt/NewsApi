@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="item_recycler_card_view_style" parent="">
+        <item name="android:backgroundTint">@color/primaryLightColor</item>
+        <item name="android:elevation">@dimen/card_elevation</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+    </style>
+
+    <style name="item_recycler_news_source" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/news_source_name_size</item>
+    </style>
+
+    <style name="item_recycler_news_published" parent="">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/news_published_size</item>
+        <item name="android:layout_marginEnd">@dimen/news_published_margin_end</item>
+    </style>
+
+    <style name="item_recycler_news_title" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/news_title_size</item>
+    </style>
+
+    <style name="item_recycler_news_description" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/news_description_size</item>
+    </style>
+</resources>

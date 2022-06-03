@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/breakingNewsFragment">
+
+    <fragment
+        android:id="@+id/breakingNewsFragment"
+        android:name="com.example.newsapi.ui.breakingnewsfragment.BreakingNewsFragment"
+        android:label="fragment_breaking_news"
+        tools:layout="@layout/fragment_breaking_news" >
+        <action
+            android:id="@+id/action_breakingNewsFragment_to_disconnectDialog"
+            app:destination="@id/disconnectDialog" />
+    </fragment>
+    <dialog
+        android:id="@+id/disconnectDialog"
+        android:name="com.example.newsapi.ui.disconnectdialog.DisconnectDialog"
+        android:label="dialog_disconnect"
+        tools:layout="@layout/dialog_disconnect" />
+</navigation>

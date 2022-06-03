@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="item_recycler_card_view_style.dark_theme">
+        <item name="android:backgroundTint">@color/primaryDarkColor</item>
+    </style>
+
+    <style name="item_recycler_news_source.dark_theme">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="item_recycler_news_published.dark_theme">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="item_recycler_news_title.dark_theme">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="item_recycler_news_description.dark_theme" parent="">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+</resources>
